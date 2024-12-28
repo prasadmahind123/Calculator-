@@ -10,7 +10,7 @@ html{
     position: fixed;
 }
 body{
-    background-image: url(calculatorImage.jpg);
+    background-image: url(calculatorImage.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
