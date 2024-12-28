@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+body{
+    background-image: url(calculatorImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    font-size: 3.5rem;
+    font-style: italic;
+    text-shadow: -4px 3px 2px rgba(209, 223, 20, 0.2);
+    color: aliceblue;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    width: 60%;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-right: 4rem;
+    text-align: center;
+    justify-content: center;
+}
+.result{
+   width: 50%;
+   height: 10%;
+   padding: 1rem;
+   margin-left: 5rem;
+   background-color: aliceblue;
+}
+.result p{
+   font-size: 2rem;
+   opacity: 0.5;
+}
+.buttons{
+    width: 50%;
+    gap: 2rem;
+    margin-left: 4rem;
+    margin-top: 4rem;
+    color: rgb(6, 6, 6);
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+    display: grid;
+    border-radius: 12px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    box-shadow:-7px -6px 38px 5px rgba(83, 86, 82, 0.871);
+}
+.button{
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 18rem;
+    border: 1px solid #222;
+    background-color: rgb(249, 249, 249);
+    font-size: 1.7rem;
+}
+.buttons button{
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #222;
+    background-color: rgb(249, 249, 249);
+    font-size: 1.7rem;
+}
+.input{
+    text-align: center;
+    margin-left: 15rem;
+    width: 30%;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+button:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+@media (max-width: 1068px) {
+    h2{
+        font-size: 1.8rem;
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+    .input{
+        margin-left: 1.5rem;
+        width: 85%;
+        margin-top: 3rem;
+    }
+    .buttons{
+        width: 82%;
+        margin-left: 1rem;
+        margin-top: 4rem;
+        gap: 1rem;
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+   .result{
+        padding: 0.5rem;
+        margin-left: 1.5rem;
+        width: 80%;
+   }
+   .result p{
+    font-size: 1.5rem;
+   }
+}
